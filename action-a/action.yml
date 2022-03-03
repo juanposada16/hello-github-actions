@@ -1,13 +1,13 @@
 name: "Hello Actions"
 description: "Greet someone"
-author: "juan.posada@hunty.com"
+author: "octocat@github.com"
 
-input:
+inputs:
   MY_NAME:
     description: "Who to greet"
     required: true
     default: "World"
-    
+
 runs:
   using: "docker"
   image: "Dockerfile"
